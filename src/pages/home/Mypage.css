@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    position: relative;
+    background: url(https://images.wallpaperscraft.com/image/single/cup_coffee_books_156306_1920x1080.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+}
+.main-info{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-info h1{
+    color: orange;
+    text-transform: uppercase;
+
+}
+/************* typed text ************/
+.typed{
+    font-size: 2rem;
+    color: white;
+
+}
+
+/************* my page button **********/
+.btn-main{
+    border: 1px solid #ef4035;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 12px 12px 12px;
+    color: white;
+    margin: 2rem;
+    text-decoration: none;
+    /**color: #f33501;*/
+}
+.btn-main:active{
+    background-color: rgba(0,0,0,0.5);
+}
